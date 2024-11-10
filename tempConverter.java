@@ -9,6 +9,7 @@ import java.util.Scanner;
             System.out.println("Temperature Conversion Tool");
             System.out.println("1. Fahrenheit to Celsius");
             System.out.println("2. Celsius to Fahrenheit");
+            System.out.print("Enter 0 to exit.");
             System.out.print("Enter your choice (1 or 2): ");
             int choice = scanner.nextInt();
             if (choice == 1) {
